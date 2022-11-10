@@ -1,0 +1,16 @@
+1) see the movie details (poster, title, runtime,showtime, and aval tickets when the page loads)
+a) do this by creating variables.innerText = and including the "" of the information for the first film  in the quotes
+b) the available tickets should be the # of capacity- tickets sold. 
+c) you will need to use a fetch() function to get the film data, maybe for this first part, but maybe just for later. the database url of /films/1
+
+2) see a list "menu" of all the movies (menu.append(title) ) 
+    a) you're doing to have to const the menu, then asynch await and fetch from the db- using the ending /films
+    to create the tag for the p to go into,
+    you'll append them to the UL with the id "films"
+
+    forEach
+    AddeventListener(click, (e) => {})
+    and!! e.preventDefault()
+
+    then you can append the title or whatever key you've declared as a variable to the  is next to the 
+3) Buy a ticket for a movie. after clicking the "buy ticket" capacity= -- (minus one) until I reach 0 capacity. ( don't have to post to the database for this)
